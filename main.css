@@ -10,8 +10,10 @@ body {
 }
 /*Headers*/
 h1 {
-	font-size: 14;
+	font-size: 36;
 	color: 800000;
 }
 	
-		
+h2 {
+	font-size: 14;
+}
