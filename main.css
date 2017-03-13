@@ -9,11 +9,11 @@ body {
 	box-sizing: border-box
 }
 /*Headers*/
-h1 {
+h1 a{
 	font-size: 36;
 	color: 800000;
 }
 	
-h2 {
+h2 a{
 	font-size: 14;
 }
