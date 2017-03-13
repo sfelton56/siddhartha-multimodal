@@ -1,0 +1,231 @@
+html, body {
+	height: 100%;
+	box-sizing: border-box;
+}
+body {
+	background-color: #fafafa;
+}
+* {
+	box-sizing: border-box
+}
+/*MAIN*/
+#container {
+	margin: 0 12.5%;
+	height: 100%;
+}
+
+/*NAVBAR*/
+#nav {
+	overflow: hidden;
+	background-color: #333;
+	width: 100%;
+	position: relative;
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	padding: 0 12.5%;
+	margin-bottom: 1%;
+}
+
+#nav li {
+	float: left;
+	text-align: center;
+}
+
+#nav li a {
+	display: block;
+	color: white;
+	padding: 12px 14px;
+	text-decoration: none;
+	text-transform: capitalize;
+	letter-spacing: .5px;
+	transition: 0.3s linear;
+}
+
+#nav li a:hover, #nav li a.active {
+	color: #6ed7d7;
+}
+
+/*CMIFF*/
+header {
+	display: block;
+	padding: 1% calc(12.5% + 8px)!important;
+}
+
+#head {
+	width: 230px;
+	text-align: center;
+}
+
+#head a {
+	color: black;
+	text-decoration: none;
+	transition: .3s;
+}
+
+#head a:hover {
+	color: #999;
+}
+
+.dates {
+	font-size: 17px;
+	display: block;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	text-align: center;
+}
+
+.cmiff {
+	font-size: 50px;
+	font-family: 'Lobster', cursive;
+	height: 48px;
+	display: block;
+}
+
+/*SEARCH*/
+#search {
+	float: right;
+	margin: 7px 0!important;
+	width: 20%;
+}
+
+#search input {
+	padding: 5px;
+}
+
+#search input[type="text"] {
+	border: 0;
+	margin-right: -4px;
+	width: 90%;
+}
+
+#search input[type="submit"] {
+	border: 0;
+	background-color: #6ed7d7;
+	width: 10%;
+	background-image: url(https://staciepoin.github.io/cmiff/images/search-icon.png);
+	background-size: 15px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition: .3s;
+}
+
+#search input:focus {
+	outline: 0;
+}
+
+#search input[type="submit"]:hover {
+	background-image: url(https://staciepoin.github.io/cmiff/images/search-icon-black.png);
+	cursor: pointer;
+}
+
+/*SIDEBAR*/
+#sidebar {
+	height: 100%;
+	width: 20%;
+	float: right;
+}
+
+/*CONTACT*/
+#sidebar h3 {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 22px;
+	padding: 10px;
+	background-color: #848484;
+	letter-spacing: 1px;
+}
+
+#contact {
+	background-color: #555;
+	width: 100%;
+	padding: 12px;
+	margin: 0!important;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif!important;
+	font-size: 12px;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact textarea, #contact input[type="submit"] {
+	border: 0;
+	padding: 6px 8px;
+	width: 100%;
+	font-size: inherit;
+	font-family: inherit;
+	border-radius: 1.5px;
+	margin: 3% 0;
+}
+
+#contact textarea {
+	resize: none;
+}
+
+#contact input:focus, textarea:focus {
+	outline: 0;
+}
+
+#contact input[type="submit"] {
+	background-color: #6ed7d7;
+	font-family: 'Oswald', sans-serif;
+	width: 50%!important;
+	margin: 1.5% 0 0 50%!important;
+	transition: 0.3s;
+}
+
+#contact input[type="submit"]:hover {
+	cursor: pointer;
+	background-color: #aad7d7;
+}
+
+/*headings*/
+#container .section {
+  padding-top: 20px;
+  width: 80%;
+  padding-right: 20px
+}
+#container i {
+  font-size: 75px;
+  display: block;
+  color: #6adbd8;
+  text-align: center;
+  padding-bottom: 7.5px
+}
+
+#container p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  display: block;
+  line-height: 22.5px
+}
+
+/*H3*/
+#container h4 {
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+}
+
+h4 a {
+  text-decoration: none;
+  color: #6adbd8;
+  padding: 8px 0;
+  box-shadow: inset 0 0 0 2px white;
+  border: 5px solid #555;
+  width: 100%;
+  background: #555;
+  display: block;
+  transition: .3s
+}
+
+h4 a:hover {
+  box-shadow: inset 0 0 0 2px #6adbd8;
+  color: #fff
+}
+
+img.logo {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  width: 80%
+}
